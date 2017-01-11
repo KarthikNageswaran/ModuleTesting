@@ -1,0 +1,7 @@
+<suite name="My suite" parallel="methods">
+	<test name="qualitative factor">
+		<classes>
+			<class name="com.AutomationTesting.testcases.QualitativeFactor"/>
+		</classes>
+	</test>
+</suite>

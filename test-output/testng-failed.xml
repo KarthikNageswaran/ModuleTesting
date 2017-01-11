@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My suite]" parallel="methods">
+  <test name="qualitative factor(failed)" parallel="methods">
+    <classes>
+      <class name="com.AutomationTesting.testcases.QualitativeFactor">
+        <methods>
+          <include name="runeverytest"/>
+          <include name="testing" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.AutomationTesting.testcases.QualitativeFactor -->
+    </classes>
+  </test> <!-- qualitative factor(failed) -->
+</suite> <!-- Failed suite [My suite] -->

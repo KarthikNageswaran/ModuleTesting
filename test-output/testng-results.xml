@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite" duration-ms="217292" started-at="2017-01-06T12:09:44Z" finished-at="2017-01-06T12:13:21Z">
+    <groups>
+    </groups>
+    <test name="qualitative factor" duration-ms="217292" started-at="2017-01-06T12:09:44Z" finished-at="2017-01-06T12:13:21Z">
+      <class name="com.AutomationTesting.testcases.QualitativeFactor">
+        <test-method status="PASS" signature="testing(java.util.Hashtable)[pri:0, instance:com.AutomationTesting.testcases.QualitativeFactor@393671df]" name="testing" duration-ms="216994" started-at="2017-01-06T17:39:44Z" data-provider="getdata" finished-at="2017-01-06T17:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=sel test2, action_comments=test100, owners=Rita.Rory,Stan.Smith, Runmode=Y, responseType=Date, categories=Availability,Business Disruption and System Failures, level1approver=Stan.Smith, currency=, loginuser=Stan.Smith/welcome*12, description=Qualitative factor is successfully submitted, level2approver=Rita.Rory, Browser=chrome, listofvalues=, owner_organizations=GRC - Enterprise Risk,GRC - Op Risk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="SKIP" signature="testing(java.util.Hashtable)[pri:0, instance:com.AutomationTesting.testcases.QualitativeFactor@393671df]" name="testing" duration-ms="4" started-at="2017-01-06T17:43:21Z" data-provider="getdata" finished-at="2017-01-06T17:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=sel test4, action_comments=, owners=, Runmode=N, responseType=Number, categories=Availability, level1approver=, currency=, loginuser=Stan.Smith/welcome*12, description=, level2approver=, Browser=ie, listofvalues=, owner_organizations=GRC - Op Risk}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test
+	at com.AutomationTesting.testcases.QualitativeFactor.testing(QualitativeFactor.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="SKIP" signature="testing(java.util.Hashtable)[pri:0, instance:com.AutomationTesting.testcases.QualitativeFactor@393671df]" name="testing" duration-ms="19" started-at="2017-01-06T17:43:21Z" data-provider="getdata" finished-at="2017-01-06T17:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=sel test5, action_comments=test101test101test101test101test101test101test101, owners=, Runmode=N, responseType=Text, categories=Availability, level1approver=, currency=, loginuser=Stan.Smith/welcome*12, description=Qualitative factor is successfully submittedQualitative factor is successfully submittedQualitative factor is successfully submittedQualitative factor is successfully submittedQualitative factor is successfully submitted, level2approver=, Browser=firefox, listofvalues=, owner_organizations=GRC - Op Risk}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test
+	at com.AutomationTesting.testcases.QualitativeFactor.testing(QualitativeFactor.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="runeverytest()[pri:0, instance:com.AutomationTesting.testcases.QualitativeFactor@393671df]" name="runeverytest" is-config="true" duration-ms="242" started-at="2017-01-06T17:43:21Z" finished-at="2017-01-06T17:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runeverytest -->
+      </class> <!-- com.AutomationTesting.testcases.QualitativeFactor -->
+    </test> <!-- qualitative factor -->
+  </suite> <!-- My suite -->
+</testng-results>
